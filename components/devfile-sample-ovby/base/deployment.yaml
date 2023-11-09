@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ovby
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0006-tenant/cin4s-839-0006-app/devfile-sample-ovby@sha256:cd0e84511c1811b9fc48ac1fac338a1ff3ba77d29de5e55e79864e160ad33a8e
         name: my-nodejs
         ports:
         - containerPort: 3001
